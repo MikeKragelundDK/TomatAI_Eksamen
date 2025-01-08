@@ -3,8 +3,6 @@
 
 This repository highlights my skills in full-stack development, machine learning, and API design. It is not intended to be run, as all environment variables and sensitive data have been removed. This project is designed to serve as a demonstration piece, showcasing the structure and implementation of a full-stack application. The purpose of this repository is strictly for inclusion in my CV.
 
----
-
 ## Project Structure
 
 The project is split into four main parts:
@@ -27,7 +25,6 @@ The project is split into four main parts:
 
    - Manages backend functionality and database interactions, located in the `api` folder. The API leverages Express as its primary framework and uses an ORM for database modeling and interactions.
 
----
 
 ### Frontend (`MLTOMAT2`)
 
@@ -59,7 +56,6 @@ This folder contains the React frontend for the project.
     - **`analysis.js`**: Includes functions for creating, fetching, and managing analyses via API calls.
     - **`auth.js`**: Handles user authentication-related requests, such as login and registration.
 
----
 
 ### API (`api`)
 
@@ -85,7 +81,6 @@ This folder contains backend logic, API endpoints, and middleware.
     - Integrates with Google Cloud Storage for image uploads using `multer`.
     - Hosts endpoints for health checks, user authentication, and analysis operations.
 
----
 
 ## Notes
 
@@ -95,7 +90,6 @@ This folder contains backend logic, API endpoints, and middleware.
 2. **Purpose**:
    This project is presented as part of my portfolio. It is not configured to be run directly and serves solely as a demonstration of my previous work.
 
----
 
 ## Technologies Used
 
@@ -104,7 +98,6 @@ This folder contains backend logic, API endpoints, and middleware.
 - **Machine Learning**: Python libraries used for training models, including Keras (TensorFlow) for model creation, and sklearn for test splitting and visualization (confusion matrix) (details in `LoadAndTraining.py`).
 - **Database**: PostgreSQL with ORM for model management.
 
----
 
 ## Usage
 
